@@ -12,6 +12,11 @@ public class GuestBookBean {
     public GuestBookBean() {
     }
 
+    public GuestBookBean(String name, String message) {
+        this.name = name;
+        this.message = message;
+    }
+
     public GuestBookBean(String name, String message, LocalDateTime date) {
         this.name = name;
         this.message = message;

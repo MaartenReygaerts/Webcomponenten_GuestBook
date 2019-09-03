@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b06d5af-046a-4cc8-b27d-7fdab0394933" name="Default Changelist" comment="" />
+    <list default="true" id="2b06d5af-046a-4cc8-b27d-7fdab0394933" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/dao/GuestBookBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/dao/GuestBookBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/dao/GuestBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/dao/GuestBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/dao/GuestBookBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/dao/GuestBookBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/dao/GuestBookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/dao/GuestBookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestbook.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestbook.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/dao/GuestBookBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/dao/GuestBookBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/dao/GuestBookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/dao/GuestBookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestbook/WEB-INF/classes/be/intecbrussel/webcomponenten/servlet/GuestBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/guestbook/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,8 +58,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1QGzKAsMK1SbOhlevz5yWZ1qofv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -55,6 +92,21 @@
       </list>
     </option>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c74d4a60" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,11 +118,25 @@
       <option name="presentableId" value="Default" />
       <updated>1567411654042</updated>
       <workItem from="1567411657625" duration="341000" />
-      <workItem from="1567412058494" duration="8227000" />
+      <workItem from="1567412058494" duration="12165000" />
+      <workItem from="1567496080070" duration="8796000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

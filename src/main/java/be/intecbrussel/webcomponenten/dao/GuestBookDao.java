@@ -1,6 +1,7 @@
 package be.intecbrussel.webcomponenten.dao;
 
 import java.sql.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class GuestBookDao {
         List<GuestBookBean> guestBookBeans = new ArrayList<>();
         try{
             Statement statement = conn.createStatement();
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM Guestbook");
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM GuestBook");
             while (resultSet.next()) {
                 guestBookBeans.add(new GuestBookBean(resultSet.getString("Name")
                         ,resultSet.getString("Message")
@@ -28,7 +29,19 @@ public class GuestBookDao {
         return guestBookBeans;
     }
 
-    public void addGuestBookItem(GuestBookBean item){
+    public void addGuestBookItem(GuestBookBean item) throws SQLException {
+        PreparedStatement statement = conn.prepareStatement("INSERT INTO GuestBook (Name,Message) values (?,?)");
+        try {
+            statement.setString(1,item.getName());
+            statement.setString(2,item.getMessage());
+
+
+            statement.execute();
+            statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
 
     }
 
